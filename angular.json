@@ -3,7 +3,7 @@
     "version": 1,
     "newProjectRoot": "projects",
     "projects": {
-      "muffeez-portfolio": {
+      "baljeet-portfolio": {
         "projectType": "application",
         "schematics": {
           "@schematics/angular:component": {
@@ -17,7 +17,7 @@
           "build": {
             "builder": "@angular-devkit/build-angular:browser",
             "options": {
-              "outputPath": "dist/muffeez-portfolio",
+              "outputPath": "dist/baljeet-portfolio",
               "index": "src/index.html",
               "main": "src/main.ts",
               "polyfills": [
@@ -77,10 +77,10 @@
             "builder": "@angular-devkit/build-angular:dev-server",
             "configurations": {
               "production": {
-                "browserTarget": "muffeez-portfolio:build:production"
+                "browserTarget": "baljeet-portfolio:build:production"
               },
               "development": {
-                "browserTarget": "muffeez-portfolio:build:development"
+                "browserTarget": "baljeet-portfolio:build:development"
               }
             },
             "defaultConfiguration": "development"
@@ -88,7 +88,7 @@
           "extract-i18n": {
             "builder": "@angular-devkit/build-angular:extract-i18n",
             "options": {
-              "browserTarget": "muffeez-portfolio:build"
+              "browserTarget": "baljeet-portfolio:build"
             }
           },
           "test": {
