@@ -10,11 +10,11 @@
             <div *ngFor='let project of "FeatureProjects.Projects" | translate; let i = index' class="d-flex proyect-container" data-aos="fade-up" data-aos-duration="1000">
                 <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2==0">
                     <ng-container *ngFor="let img of project.imgs">
-                        <ng-template carouselSlide [id]="project.Title+slide+i">
+                        <!-- <ng-template carouselSlide [id]="project.Title+slide+i">
                             <div #imgContainer class='img-container'>
                                 <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
                             </div>
-                        </ng-template>
+                        </ng-template> -->
                     </ng-container>
                 </owl-carousel-o>
                 <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2==0">
@@ -46,11 +46,11 @@
                 </div>
                 <owl-carousel-o class='owl-carousel-o' [options]="customOptions" *ngIf="i%2!=0">
                     <ng-container *ngFor="let img of project.imgs">
-                        <ng-template carouselSlide [id]="project.Title+slide+i">
+                        <!-- <ng-template carouselSlide [id]="project['Title']+slide+i">
                             <div class='img-container'>
                                 <img class='img-feature-proyect rounded' [src]="img" [alt]="project.Title">
                             </div>
-                        </ng-template>
+                        </ng-template> -->
                     </ng-container>
                 </owl-carousel-o>
                 <div class="img-feature-proyect-container" data-aos="fade-up" data-aos-duration="1000" *ngIf="i%2!=0">

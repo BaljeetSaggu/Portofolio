@@ -7,7 +7,7 @@ import { Location } from '@angular/common';
 })
 export class LanguageService {
 
-  language: "es" | "en";
+  language!: "es" | "en";
 
   constructor(
     public translateService: TranslateService,
@@ -26,7 +26,7 @@ export class LanguageService {
     this.language=language
   }
 
-  changeLanguage(language){
+  changeLanguage(language:any){
     this.translateService.setDefaultLang(language)
     this.location.go(language)
     this.language=language

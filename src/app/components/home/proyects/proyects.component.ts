@@ -20,7 +20,7 @@ export class ProyectsComponent implements OnInit {
     autoplayTimeout:3000
   }
 
-  @ViewChild('imgContainer') imgContainer: ElementRef;
+  @ViewChild('imgContainer') imgContainer!: ElementRef;
 
 
   constructor(

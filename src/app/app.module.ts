@@ -24,6 +24,7 @@ export function HttpLoaderFactory(http: HttpClient){
     /* ArchiveComponent */
   ],
   imports: [
+    BrowserModule,
     BrowserAnimationsModule,
     HomeModule,
     GeneralModule,

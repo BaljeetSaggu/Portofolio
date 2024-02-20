@@ -10,7 +10,7 @@ export class AnalyticsService {
     private $gaService: GoogleAnalyticsService
   ) { }
 
-  sendAnalyticEvent(action: string, category: string, label){
+  sendAnalyticEvent(action: string, category: string, label:any){
     this.$gaService.event(action, category, label)
   }
 
