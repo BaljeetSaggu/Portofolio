@@ -1,9 +1,3 @@
-# Muffeez-Portfolio 
-I have 3 years of experience developing systems, interfaces, bots, and technological solutions to make the web a better place. I am dedicated to writing and refactoring clean, reusable, and scalable code in `Angular, React, NodeJS and ExpressJS and sometimes in Python` applying good practices and development standards.
-
-Click the link below to open my portfolio.
-<https://mufeez1.github.io/muffeez/> 
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
